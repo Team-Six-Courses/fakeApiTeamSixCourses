@@ -13,23 +13,33 @@
       "avatar": null,
       "name": "Adilson",
       "id": 2
+    },
+    {
+      "email": "maryanne@mail.com",
+      "password": "$2a$10$4v9dVqL0w/eRP3zbwmbat.KS3/0bjY2Anqe85iipvOMbyeCwP2vve",
+      "avatar": null,
+      "name": "Maryanne",
+      "id": 3
     }
-   
   ],
   "posts": [
     {
       "title": "Final do Filme - Teoria",
       "description": "Teria aqui!",
       "userId": 2,
-      "like": 0,
       "id": 1
     },
     {
       "title": "Final do Filme - Teoria mary",
       "description": "Teoria alterada",
       "userId": 3,
-      "like": 2,
       "id": 2
+    },
+    {
+      "title": "Final do Filme - Teoria mary",
+      "description": "Teria aqui! teoria mary",
+      "userId": 3,
+      "id": 3
     }
   ],
   "comments": [
@@ -39,5 +49,14 @@
       "userId": 1,
       "id": 1
     }
-  ]
+  ],
+  "likePost": [
+    {
+      "userId": 3,
+      "postId": 1,
+      "id": 1
+    }
+  ],
+
+  "likeComment":[]
 }
