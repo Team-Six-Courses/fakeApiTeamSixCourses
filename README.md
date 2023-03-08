@@ -148,6 +148,43 @@ Retorno:
 }
 ```
 
+`GET` Para capturar as postagens de filmes expecificos use essa rota `/posts?filmsId=1&_expand=user&_embed=likePost`:
+
+Retorno:
+
+```json
+{
+  "title": "Final do Filme - Teoria",
+  "description": "Teria aqui!",
+  "userId": 1,
+  "filmsId": 1,
+  "id": 1,
+  "likePost": [],
+  "user": {
+    "email": "vinicius@mail.com",
+    "password": "$2a$10$zqUIReAbpchBiUopdA1ezOPakDU41xUtJYJzpdoN4GcLsojRfgXpS",
+    "avatar": null,
+    "name": "Vinicius",
+    "id": 1
+  }
+},
+{
+  "title": "Teoria de dimenção do amor",
+  "description": "A dimensão do amor",
+  "userId": 1,
+  "filmsId": 1,
+  "id": 2,
+  "likePost": [],
+  "user": {
+    "email": "vinicius@mail.com",
+    "password": "$2a$10$zqUIReAbpchBiUopdA1ezOPakDU41xUtJYJzpdoN4GcLsojRfgXpS",
+    "avatar": null,
+    "name": "Vinicius",
+    "id": 1
+  }
+} 
+```
+
 `POST` Para dar like no post use essa rota `/likePost`, nessecita do um token e de um corpo:
 
 ```json
