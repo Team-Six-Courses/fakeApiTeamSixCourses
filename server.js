@@ -9,10 +9,12 @@ const router = jsonServer.router("db.json");
 app.db = router.db;
 
 const rules = auth.rewriter({
+  films: 664,
   users: 600,
-  posts: 640,
+  posts: 664,
   comments: 640,
-  likePost: 640
+  likePost: 640,
+  likeCommet: 640
 });
 
 app.use(cors());

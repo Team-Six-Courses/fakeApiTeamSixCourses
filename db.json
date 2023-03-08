@@ -1,45 +1,101 @@
 {
-  "users": [
+  "films": [
     {
-      "email": "kenzinho@mail.com",
-      "password": "$2a$10$YQiiz0ANVwIgpOjYXPxc0O9H2XeX3m8OoY1xk7OGgxTnOJnsZU7FO",
-      "name": "Kenzinho",
-      "age": 38,
+      "title": "Interestelar",
+      "year": 2014,
+      "classification": 12,
+      "date": "06/11/2014 (BR)",
+      "category": [
+        "Aventura",
+        "Drama",
+        "Ficção cientifica"
+      ],
+      "duration": "2h 49m",
+      "trailer": "https://youtu.be/mbbPSq63yuM",
+      "synoyisis": "As reservas naturais da Terra estão chegando ao fim e um grupo de astronautas recebe a missão de verificar possíveis planetas para receberem a população mundial, possibilitando a continuação da espécie. Cooper é chamado para liderar o grupo e aceita a missão sabendo que pode nunca mais ver os filhos. Ao lado de Brand, Jenkins e Doyle, ele seguirá em busca de um novo lar.",
+      "director": "Christopher Nole",
+      "poster": "https://www.themoviedb.org/t/p/w600_and_h900_bestv2/55JWKCqNTn54016voGvig52ikjb.jpg",
       "id": 1
     },
     {
-      "email": "adilson@mail.com",
-      "password": "$2a$10$Sk5vVVHtmue1qtH8m7HQ1.J3.Jvvi6jP3u46zjA0YhvkTbfgTUyT2",
-      "avatar": null,
-      "name": "Adilson",
+      "title": "Perdido em Marte",
+      "year": 2014,
+      "classification": 12,
+      "date": "06/11/2014 (BR)",
+      "category": [
+        "Aventura",
+        "Drama",
+        "Ficção cientifica"
+      ],
+      "duration": "2h 49m",
+      "trailer": "https://youtu.be/mbbPSq63yuM",
+      "synoyisis": "As reservas naturais da Terra estão chegando ao fim e um grupo de astronautas recebe a missão de verificar possíveis planetas para receberem a população mundial, possibilitando a continuação da espécie. Cooper é chamado para liderar o grupo e aceita a missão sabendo que pode nunca mais ver os filhos. Ao lado de Brand, Jenkins e Doyle, ele seguirá em busca de um novo lar.",
+      "director": "Christopher Nole",
+      "poster": "https://www.themoviedb.org/t/p/w600_and_h900_bestv2/55JWKCqNTn54016voGvig52ikjb.jpg",
       "id": 2
     },
     {
-      "email": "maryanne@mail.com",
-      "password": "$2a$10$4v9dVqL0w/eRP3zbwmbat.KS3/0bjY2Anqe85iipvOMbyeCwP2vve",
-      "avatar": null,
-      "name": "Maryanne",
+      "title": "2001: Odyce space",
+      "year": 2014,
+      "classification": 12,
+      "date": "06/11/2014 (BR)",
+      "category": [
+        "Aventura",
+        "Drama",
+        "Ficção cientifica"
+      ],
+      "duration": "2h 49m",
+      "trailer": "https://youtu.be/mbbPSq63yuM",
+      "synoyisis": "As reservas naturais da Terra estão chegando ao fim e um grupo de astronautas recebe a missão de verificar possíveis planetas para receberem a população mundial, possibilitando a continuação da espécie. Cooper é chamado para liderar o grupo e aceita a missão sabendo que pode nunca mais ver os filhos. Ao lado de Brand, Jenkins e Doyle, ele seguirá em busca de um novo lar.",
+      "director": "Christopher Nole",
+      "poster": "https://www.themoviedb.org/t/p/w600_and_h900_bestv2/55JWKCqNTn54016voGvig52ikjb.jpg",
       "id": 3
+    }
+  ],
+  "users": [
+    {
+      "email": "vinicius@mail.com",
+      "password": "$2a$10$zqUIReAbpchBiUopdA1ezOPakDU41xUtJYJzpdoN4GcLsojRfgXpS",
+      "avatar": null,
+      "name": "Vinicius",
+      "id": 1
+    },
+    {
+      "email": "valdo@mail.com",
+      "password": "$2a$10$65T7WoPvQBZhPFeyjcJBbeC3EKxJGhgWG1d0VMMwYT2p8nT6eQGHe",
+      "avatar": null,
+      "name": "Valdo",
+      "id": 2
     }
   ],
   "posts": [
     {
       "title": "Final do Filme - Teoria",
       "description": "Teria aqui!",
-      "userId": 2,
+      "userId": 1,
+      "filmsId": 1,
       "id": 1
     },
     {
-      "title": "Final do Filme - Teoria mary",
-      "description": "Teoria alterada",
-      "userId": 3,
+      "title": "Teoria de dimenção do amor",
+      "description": "A dimensão do amor",
+      "userId": 1,
+      "filmsId": 1,
       "id": 2
     },
     {
-      "title": "Final do Filme - Teoria mary",
-      "description": "Teria aqui! teoria mary",
-      "userId": 3,
+      "title": "Teoria Perdido em marte",
+      "description": "A dimensão do amor",
+      "userId": 2,
+      "filmsId": 2,
       "id": 3
+    },
+    {
+      "title": "2001",
+      "description": "A dimensão do amor",
+      "userId": 2,
+      "filmsId": 3,
+      "id": 4
     }
   ],
   "comments": [
@@ -52,11 +108,26 @@
   ],
   "likePost": [
     {
-      "userId": 3,
+      "userId": 1,
       "postId": 1,
       "id": 1
+    },
+    {
+      "userId": 2,
+      "postId": 1,
+      "id": 2
+    },
+    {
+      "userId": 2,
+      "postId": 2,
+      "id": 3
     }
   ],
-
-  "likeComment":[]
+  "likeComment": [
+    {
+      "userId": 1,
+      "commentId": 1,
+      "id": 1
+    }
+  ]
 }
