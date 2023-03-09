@@ -5,7 +5,11 @@
       "year": 2014,
       "classification": 12,
       "date": "06/11/2014 (BR)",
-      "category": ["Aventura", "Drama", "Ficção cientifica"],
+      "category": [
+        "Aventura",
+        "Drama",
+        "Ficção cientifica"
+      ],
       "duration": "2h 49m",
       "trailer": "https://youtu.be/mbbPSq63yuM",
       "synoyisis": "As reservas naturais da Terra estão chegando ao fim e um grupo de astronautas recebe a missão de verificar possíveis planetas para receberem a população mundial, possibilitando a continuação da espécie. Cooper é chamado para liderar o grupo e aceita a missão sabendo que pode nunca mais ver os filhos. Ao lado de Brand, Jenkins e Doyle, ele seguirá em busca de um novo lar.",
@@ -14,9 +18,69 @@
       "id": 1
     }
   ],
-  "users": [],
-  "posts": [],
-  "comments": [],
-  "likePost": [],
-  "likeComment": []
+  "users": [
+    {
+      "email": "vinicius@mail.com",
+      "password": "$2a$10$c4IXWJwJy.0xki.gCyFg4eIRx2pht1kuy2gHCVlCbbpYI9Er.oT2C",
+      "avatar": null,
+      "name": "vinicius",
+      "id": 1
+    },
+    {
+      "email": "valdo@mail.com",
+      "password": "$2a$10$coRqy/sCLTvY9sgrujWmwuQikvKS3zcsPspQ6rxz3fZXam.V5jDa6",
+      "avatar": null,
+      "name": "Valdo",
+      "id": 2
+    },
+    {
+      "email": "flaviana@mail.com",
+      "password": "$2a$10$B5GzOmU3OLX.8Kq055XXRuDDT1KVKq38C1VsSl2i9zFCwRHy5FlrK",
+      "avatar": null,
+      "name": "Flaviana",
+      "id": 3
+    }
+  ],
+  "posts": [
+    {
+      "title": "Amei a pontuação",
+      "description": "Eu amo a pontuação para este filme. É bombástico, alto e emocional exatamente nos momentos certos. Ainda bem que vi no teatro.",
+      "userId": 1,
+      "filmId": 1,
+      "id": 1
+    }
+  ],
+  "comments": [
+    {
+      "postId": 2,
+      "comment": "Montanhas FTW a partitura é boa, embora bastante repetitiva, não aconteceria muita coisa se o Zimmer removesse 30% das músicas, elas são muito parecidas",
+      "userId": 2,
+      "id": 1
+    },
+    {
+      "postId": 1,
+      "comment": "Achei a trilha linda também.",
+      "userId": 3,
+      "id": 2
+    }
+  ],
+  "likePost": [
+    {
+      "userId": 2,
+      "postId": 1,
+      "id": 1
+    },
+    {
+      "userId": 3,
+      "postId": 1,
+      "id": 2
+    }
+  ],
+  "likeComment": [
+    {
+      "userId": 1,
+      "commentId": 2,
+      "id": 1
+    }
+  ]
 }
