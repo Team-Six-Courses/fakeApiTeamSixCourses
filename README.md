@@ -108,8 +108,7 @@ Não retorna nada
 {
   "title": "Teoria de dimenção do amor",
   "description": "A dimensão do amor",
-  "userId": 1,
-  "like": 0
+  "userId": 
 }
 ```
 
@@ -120,7 +119,6 @@ Retorno:
   "title": "Teoria de dimenção do amor",
   "description": "A dimensão do amor",
   "userId": 1,
-  "like": 0,
   "id": 2
 }
 ```
