@@ -22,21 +22,21 @@
     {
       "email": "vinicius@mail.com",
       "password": "$2a$10$c4IXWJwJy.0xki.gCyFg4eIRx2pht1kuy2gHCVlCbbpYI9Er.oT2C",
-      "avatar": null,
+      "avatar": "null",
       "name": "vinicius",
       "id": 1
     },
     {
       "email": "valdo@mail.com",
       "password": "$2a$10$coRqy/sCLTvY9sgrujWmwuQikvKS3zcsPspQ6rxz3fZXam.V5jDa6",
-      "avatar": null,
+      "avatar": "null",
       "name": "Valdo",
       "id": 2
     },
     {
       "email": "flaviana@mail.com",
       "password": "$2a$10$B5GzOmU3OLX.8Kq055XXRuDDT1KVKq38C1VsSl2i9zFCwRHy5FlrK",
-      "avatar": null,
+      "avatar": "null",
       "name": "Flaviana",
       "id": 3
     }
