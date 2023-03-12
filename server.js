@@ -12,9 +12,10 @@ const rules = auth.rewriter({
   films: 664,
   users: 644,
   posts: 664,
+  avatars: 664,
   comments: 640,
   likePost: 640,
-  likeCommet: 640
+  likeCommet: 640,
 });
 
 app.use(cors());

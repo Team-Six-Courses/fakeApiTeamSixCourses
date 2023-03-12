@@ -78,5 +78,35 @@
       "commentId": 2,
       "id": 1
     }
+  ],
+  "avatars": [
+    {
+      "id": 1,
+      "avatar": "https://www.themoviedb.org/t/p/w533_and_h300_bestv2/3dPhs7hUnQLphDFzdkD407VZDYo.jpg"
+    },
+    {
+      "id": 2,
+      "avatar": "https://www.themoviedb.org/t/p/original/i2gJQtnkLA2SpU9cRvkbuLOoW1I.jpg"
+    },
+    {
+      "id": 3,
+      "avatar": "https://www.themoviedb.org/t/p/original/vXMNOMkRhqrtsSZY6nCGCMkRslM.jpg"
+    },
+    {
+      "id": 4,
+      "avatar": "https://www.themoviedb.org/t/p/original/bBmYQBnlOHW19Q9i9ZsWt0iaEPU.jpg"
+    },
+    {
+      "id": 5,
+      "avatar": "https://www.themoviedb.org/t/p/original/ds1Tgh2uvXKMPFVxIUwVvW3BJB5.jpg"
+    },
+    {
+      "id": 6,
+      "avatar": "https://www.themoviedb.org/t/p/original/orvQhPKBkWxAWbuqieyaSEcR2oS.jpg"
+    },
+    {
+      "id": 7,
+      "avatar": "https://www.themoviedb.org/t/p/original/qtVS7HCnlfsCzV4GXxzkiwI0rMO.jpg"
+    }
   ]
 }
